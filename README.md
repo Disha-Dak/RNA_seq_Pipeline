@@ -1,17 +1,5 @@
 # RNA_seq_Pipeline
-
-
-
-├── featureCounts/          ← “Step 1”: raw FASTQ → featureCounts
-│   ├── rna_seq.sh          ← Your Bash pipeline
-│   ├── data/               ← (optional) example FASTQ or links
-│ 
-│
-└── deseq2/                 ← “Step 2”: featureCounts → DESeq2 analysis
-    ├── _targets.R          ← targets pipeline
-    ├── results/            ← outputs (PCA, boxplots, etc.)
-
-    This repository contains two modular pipelines:
+This repository contains two modular pipelines:
 
 1. **featureCounts** (Bash):  
    - Downloads SRA FASTQ  
